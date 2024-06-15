@@ -64,7 +64,7 @@ function HeroSection() {
 
 <ClipLoader
         color={"#ffffff"}
-        className='relative left-[45vw] top-[40vh] z-[60vw]'
+        className='relative lg:left-[45vw] left-[30vw] lg:top-[40vh] top-[30vh] z-[60vw]'
         size={150}
         aria-label="Loading Spinner"
         data-testid="loader"

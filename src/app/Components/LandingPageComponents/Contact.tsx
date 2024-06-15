@@ -84,56 +84,56 @@ function Contact() {
         
       />
      
-      <div className='lg:w-[80vw] w-[87vw] lg:h-[70vh] bg-white relative lg:left-[10vw] left-[5vw] rounded-md top-[6vh] flex lg:flex-row h-[170vh] flex-col   '>
+      <div className='lg:w-[80vw] w-[90vw] lg:h-[70vh] bg-white relative lg:left-[10vw] left-[5vw] rounded-md top-[6vh] flex lg:flex-row h-[170vh] flex-col   '>
         <div className=' w-[40vw]'>
-          <p className='font-bold text-5xl relative left-[10vw] top-[10vh]'>Get In Touch </p>
-          <p className='relative left-[5vw] top-[15vh] lg:w-[35vw] w-[70vw] font-normal'>
+          <p className='font-bold text-5xl relative lg:left-[10vw] lg:top-[10vh] top-[7vh] lg:w-[50vw] w-[80vw] left-[5vw]'>Get In Touch </p>
+          <p className='relative left-[5vw] lg:top-[15vh] top-[10vh] lg:w-[35vw] w-[80vw] font-normal'>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
              Placeat, modi itaque! Id atque alias, dicta excepturi aspernatur necessitatibus temporibus qui quam, 
              consectetur fugit laboriosam harum quisquam incidunt expedita vero. Ipsam?Lorem, ipsum dolor sit amet consectetur adipisicing elit.
              Placeat, modi itaque! Id atque alias, dicta excepturi aspernatur necessitatibus temporibus qui quam, 
              consectetur fugit laboriosam harum quisquam incidunt expedita vero. Ipsam?
              </p>
-             <div className='relative left-[5vw] top-[20vh] w-[35vw] h-[20vh]'>
+             <div className='relative left-[5vw] lg:top-[20vh] top-[15vh] w-[35vw] h-[20vh]'>
   <div className='flex flex-col space-y-4'>
-    <div className='flex items-center space-x-2'>
+    <div className='flex items-center space-x-2 lg:w-[20vw] w-[90vw]'>
       <LocationOnIcon />
-      <p>Addis Abeba, Ethiopia</p>
+      <p >Addis Abeba, Ethiopia</p>
     </div>
-    <div className='flex items-center space-x-2'>
+    <div className='flex items-center space-x-2 lg:w-[20vw] w-[90vw]'>
       <PhoneAndroidIcon />
       <p>(+251) 924 5695</p>
     </div>
-    <div className='flex items-center space-x-2'>
+    <div className='flex items-center space-x-2 lg:w-[20vw] w-[90vw]'>
       <EmailIcon />
       <p>Kerim.Tarik.Qe2282@gmail.com</p>
     </div>
   </div>
-  <div className='relative top-[5vh]'>
- <Link href={'#'}> <XIcon style={{ marginLeft: '1vw',width: '1.5vw', height: '1.5vw'}} /></Link>
- <Link href={'#'}><InstagramIcon  style={{ marginLeft: '1vw',width: '1.5vw', height: '1.5vw'}}/></Link>
- <Link href={'#'}><GitHubIcon style={{ marginLeft: '1vw',width: '1.5vw', height: '1.5vw'}}/></Link>
- <Link href={'#'}> <LinkedInIcon  style={{ marginLeft: '1vw',width: '1.5vw', height: '1.5vw'}}/></Link>
+  <div className='relative top-[5vh] w-[80vw]'>
+ <Link href={'#'}> <XIcon className='ml-5 lg:w-[1.5vw] lg:h-[1.5vw] w-[10vw] h-[10vw]' /></Link>
+ <Link href={'#'}><InstagramIcon  className='ml-5 lg:w-[1.5vw] lg:h-[1.5vw] w-[10vw] h-[10vw]'/></Link>
+ <Link href={'#'}><GitHubIcon className='ml-5 lg:w-[1.5vw] lg:h-[1.5vw] w-[10vw] h-[10vw]'/></Link>
+ <Link href={'#'}> <LinkedInIcon  className='ml-5 lg:w-[1.5vw] lg:h-[1.5vw] w-[10vw] h-[10vw]'/></Link>
 
   </div>
 </div>
 
         </div>
-        <div className=' w-[40vw] relative lg:top-0 top-[25vh]'>
+        <div className=' w-[40vw] relative lg:top-0 top-[15vh]'>
         <p className='font-bold text-4xl relative left-[5vw] top-[10vh]  lg:w-[30vw] w-[50vw]'>Send me a message  </p>
         <div className='relative left-[5vw] top-[15vh]'>
     
-        <input type="text" name='name'  id="first_name"  className="bg-gray-50 border border-gray-300 lg:h-[6vh] text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block lg:w-[25vw] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-white" placeholder="Name" required />
+        <input type="text" name='name'  id="first_name"  className="bg-gray-50 border border-gray-300 lg:h-[6vh] text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block lg:w-[25vw] w-[80vw] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-white" placeholder="Name" required />
         <br />
-        <input type="text" name='email'  id="first_name" className="bg-gray-50 border border-gray-300 lg:h-[6vh] text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block lg:w-[25vw] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-white" placeholder="Your Email" required />
+        <input type="text" name='email'  id="first_name" className="bg-gray-50 border border-gray-300 lg:h-[6vh] text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block lg:w-[25vw] w-[80vw] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-white" placeholder="Your Email" required />
         <br/>
-        <input type="text" name='subject'  id="first_name" className="bg-gray-50 border border-gray-300 lg:h-[6vh] text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block lg:w-[25vw] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-white" placeholder="Subject" required />
+        <input type="text" name='subject'  id="first_name" className="bg-gray-50 border border-gray-300 lg:h-[6vh] text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block lg:w-[25vw] w-[80vw] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-white" placeholder="Subject" required />
         <br/>
-        <input type="text" name='message'  id="first_name" className="bg-gray-50 border border-gray-300 lg:h-[15vh] h-[20vh]  text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block lg:w-[25vw] w-[62vw] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-white" placeholder="Message" required  />
+        <input type="text" name='message'  id="first_name" className="bg-gray-50 border border-gray-300 lg:h-[15vh] h-[20vh]  text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block lg:w-[25vw] w-[80vw] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-white" placeholder="Message" required  />
 
         </div>
         <br/>
-        <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 relative lg:left-[6vw] left-[5vw] top-[15vh]">Blue</button>
+        <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 relative lg:left-[6vw] left-[5vw] top-[15vh]">Send</button>
 </div>
 
       </div>
